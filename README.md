@@ -1,4 +1,45 @@
+20-11-2026
+Feedback en Grid
+--
+Wat heb ik gedaan?
+We begonnen met het vergelijken van onze schetsen. Ik en Mattijs hebben dit bij elkaar gechekt. Ik ben alleen helaas mijn invulveld kwijt... Ik weet gelukkig wel nog wat er ongeveer uit kwam. Mijn la idee was het beste bij veel van de categorieën. Ik moet wel nog even kijken wat ik met light en dark mode ga doen en hoe de la gaat schalen.
+
+Het concert idee deed het ook niet slecht op de test en was wel makkelijker te schalen. Ik twijfelde alleen nogal naar de mogelijkheid ervan. Knoppen op een draaiende wereldbol die meedraaien en dus ook verdwijnen naar de andere kant + bestuurbaar met de slider. Het klonk nogal onrealistisch vonden we.
+
+Het krant idee vonden we zelf een beetje saai en niet heel uitdagend. Deze viel dus al snel af.
+
+Bij het gesprek heb ik de schetsen van de la en de doorklikpagina gepresenteerd. Ze waren hier erg enthousiast over! Vooral het overbrengen van het gevoel van verschillende albums doormiddel van verschil in opmaak vonden ze heel cool. De la zelf was ook erg goed maar ik moet de point of view van de la nog even goed uitdenken (vanaf boven werkt niet en vanaf voor ook niet). De feedback die ik kreeg was dat ik het wel mogelijk voor mezelf moest houden. Ik had veel animaties in mijn hoofd zitten wat wel lastig kan worden. Ik ben wel blij dat dat mijn feedback is, want het laat weten dat ik ambitieus bezig ben en er verder weining op aan te merken is. We hebben als laatst besproken dat ik echt lang niet elk album hoef uit te werken, want dat is veel teveel werk. 1-3 albums is genoeg.
+
+Bij de extra les hebben we grids besproken. Dit was wel een taai onderwerp maar heel erg nuttig. Bij het plaatsen van meerdere elementen op de horizontale as gaat dit me echt heel erg helpen denk ik. We zijn ook bezig geweest met het media element. Voor nu was het om grids aan te passen op basis van schermbreedte. Ook heb ik gevraagd aan Sanne hoe ik tekst kan schalen op basis van de schermgrootte. Dit kon via het Clamp element. Hieronder staan wat screenshots van de oefeningen.
+
+![Grid_oefening](readme-images/Grid_oefening1.png)
+![Grid_vis](readme-images/Grid_oefening2.png)
+![Grid_kikker_wijd](readme-images/Grid_oefening3.png)
+![Grid_kikker_smal](readme-images/Grid_oefening4.png)
+
 19-11-2026
+Schetsen en Styleguide
+--
+Wat heb ik gedaan?
+Ik heb 4 schetsen gemaakt aan de hand van 3 ideeën. Mijn ideeën zijn:
+
+- Een la met alle albums. Je kan er dan een album uit halen en dat kom je op een pagina die het gevoel van dat album weergeeft doormiddel van opmaak. Elke doorklikpagina voelt dus helemaal anders.
+- De concert scene waar ik bij geweest ben. De wereldbol draait langzaam en op de wereldbol staan de albums. Onderaan de bol staan de oude albums en het spiraalt omhoog naar de nieuwe met Bully bovenaan omdat het de Bully tour is. Je kan zelf de bol ook draaien met een slider.
+- Een krant aangezien Ye veel in het nieuws geweest is. Elk element van de krant gaat ergens anders over en leid je naar een pagina over dat onderwerp. Deze vind ik zelf wel het mist sterk.
+
+Bij het maken van de schetsen heb ik voor de la ook een doorklikpagina geschetst, omdat ik de la het leukste idee vind.
+
+![La_idee](readme-images/La_idee_schets.jpg)
+![Doorklikpagina_idee](readme-images/Doorklikpagina_idee_schets.jpg)
+![Concert_idee](readme-images/Concert_idee_schets.jpg)
+![Krant_idee](readme-images/Krant_idee_schets.jpg)
+
+Ik heb ook een soort mini styleguide gemaakt. Ik heb vooral gekeken naar typografie en kleurgebruik voor verschillende albums om dat verschil in gevoel te visualiseren. Hier zijn enkele voorbeelden:
+
+![college_dropout_kleur](readme-images/College_dropout_kleur.png)
+![Kids_See_Ghosts_kleur](readme-images/KSG_kleur.png)
+![Yeezus_lettertype](readme-images/Yeezus_lettertype.png)
+![Ye_lettertype](readme-images/Ye_lettertype.png)
 
 18-11-2026
 Visual research en extra les
@@ -15,6 +56,8 @@ We hadden eerst de presentatie waarbij we een paar vragen moesten beantwoorden:
 
 Bij visual research zijn we bezig geweest met de template in Miro over het gevoel dat je onderwerp geeft en een crazy 8. Je moest ook een woord geven die het gevoel het beste beschreef. Ik ben voor **Gelaagdheid** gegaan.
 
+Link naar bord: https://miro.com/app/board/uXjVEPsWKDc=/?moveToWidget=3458764690739629018&cot=14
+
 ![Gelaagdheid](readme-images/Sfeerwoord.png)
 
 ![Crazy_8_visual_research](readme-images/Crazy_8.jpg)
@@ -28,7 +71,7 @@ Vragen:
 
 ![Animatie_la_idee](readme-images/La_schetsen.jpg)
 
-Bij de extra les zijn we bezig geweest met kleur. We hebben uitleg gekregen over RGB, HSL en HEX. Ik denk dat ik HSL het handigst vind voor het coderen. Ook is met het nut van variabelen nu duidelijk.
+Bij de extra les zijn we bezig geweest met kleur, gradients en patronen. We hebben uitleg gekregen over RGB, HSL en HEX. Ik denk dat ik HSL het handigst vind voor het coderen. Ook is met het nut van variabelen nu duidelijk. Gradients vind ik wel erg interessant, omdat ik denk dat ik het wel goed kan gebruiken bij het tonen van het gevoel van een album. Patronen vond ik zelf best lastig en ik weet ook niet of ik er snel wat mee zou doen.
 
 17-11-2026
 Inhalen, presentatie en extra les
