@@ -1,10 +1,55 @@
-## 23-11-2026
+26-11-2026
+Coderen
+--
+Ik heb vandaag m'n hele homepage gecodeerd. Het enige wat nog mist voor nu is het hover effect omdat ik nog niet perse weet hoe dat ga doen. Ik heb met het coderen op sommige momenten best moeite gehad op eruit te komen. Vooral het over elkaar plaatsen van al mn afbeeldingen was echt een raadsel voor me eerst. Uiteindelijk heb ik het gedaan door alles wat in m'n article stond (de albums, voorkant van de la en de achterkant) op de bodem van het article te zetten (overlappend door position relative). Dan kon ik vanaf daar alles naar boven verplaatsen. Dit werkte super goed. Ik heb heel veel met % gewerkt omdat die goed meewerken als je je website scaled. Ik heb ook een light en dark mode gemaakt, maar eigenlijk vind ik alleen de darkmode versie mooi, omdat die goed het mysterieuze naar voren brengt waar ik voor ging met de donkere sfeer en de lichtgevende elementen. Ook heb ik gezorgd dat bij een weider scherm 2 kolommen ontstaan zodat de tekst links staat en de la rechts (anders werd de la ook te groot). Via een gradient op de achtergrond en een gradient om de tekst heb ik de website een mysterieuze sfeer gegeven wat nieuwschierig maakt.
+Ik heb zoveel mogelijk geannoteerd.
+
+![Afbeeldingen_alt_tekst](readme-images/Code_alt_tekst.png)
+![Onizchtbare_bullets](readme-images/Code_invisible_bullets.png)
+![Code_voor_gradient](readme-images/Code_gradient.png)
+![Code_voor_gradient2](readme-images/Code_gradient2.png)
+![Tekst_schaduw](readme-images/Code_text_shadow.png)
+![Homepage_smal](readme-images/Homepage_smal.png)
+![Homepage_wijd](readme-images/Homepage_wijd.png)
+
+25-11-2026
+Albums maken en schetsen
+--
+Ik heb heel eerlijk gezegd niet super goed opgelet in de les. Ik ben namelijk erg bezig geweest met het ontwerpen van alle albums en de la/bak die er omheen zit. Ik heb elk album diepte gegeven (op logische doordacht manier) door ze steeds kleiner te maken en een extra laag toe te voegen per album. Dit was even rekenen omdat ook die 2e laag steeds kleiner moest en ik dit niet wou freestylen maar het met logishe lineaire verkleining. Ook heb ik elk album labels gegeven zodat je de titel weet van het album die je gaat bekijken.
+
+![Albums_met_diepte](readme-images/Albums_met_diepte.png)
+
+Voor de la heb ik een achterkant gemaakt die ook de diepte in gaat en donkerder is van binnen. De voorkant leek eerst op een archief kast maar door een gesprek met Diederik lijkt het nu meer op een flightcase wat veel leuker is omdat het meer met muziek temaken heeft.
+
+![Albums_in_la](readme-images/Album_la.png)
+
+Ook hebben ik en Claudia schetsen gemaakt voor elkaar om contrast te verbeteren.
+
+![Eigen_schets](readme-images/Eigen_schets_contrast.jpg)
+![Claudia's_schets](readme-images/Claudias_schets_contrast.jpg)
+
+24-11-2026
+Afbeeldingen
+--
+Ik heb het practicum gelezen en heb aan de hand daarvan even goed nagedacht over het exporteren van mijn afbeeldingen. Omdat ze telkens kleiner worden gaan ze waarschijnlijk stom doen bij het scalen van de website. Vandaar dat ik ze op een frame ga zetten die bij elk album even groot is en onzichtbaar is. Zo scaled alles hetzelfde.
+
+23-11-2026
+Bi-weekly geek
+--
+We hebben het gehad over het internet en daar vrgaen over gesteld. Wij hadden het over de invloed van overheden op het internet. Ook hebben we onderzoeksmethoden gekoppeld aan de vragen van andere groepjes.
+
+![Geek_vragen](readme-images/Geek_1_vragen.jpg)
+![Geek_onderzoeksmethoden](readme-images/Geek_1_onderzoeksmethoden.jpeg)
+
+Toen ben ik zelf bezig geweest met het onderzoeken hoe ik mijn albums 3d ging maken en ging scalen zodat het een diepte effect zou krijgen.
+
+![Album_diepte_onderzoek](readme-images/Onderzoek_naar_diepte.png)
 
 Checkout:
 
 - Wanneer wordt een website lelijk? Wanneer er heel veel witruimte ontstaat en regels heel lang worden bij het scalen van de website. Ook als elementen zoals afbeeldingen onproportioneel groot of klein worden.
-- Met het gebruik van grids
--
+- Volgende stap om je website responsive te maken? Met het gebruik van grids en @media elementen.
+- Kan je het onderbouwen? Denk het wel.
 
 20-11-2026
 Feedback en Grid
