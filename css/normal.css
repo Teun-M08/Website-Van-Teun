@@ -3,9 +3,9 @@
 **************************/
 
 @font-face {
-  font-family: "Comic Relief";
-  src: url(../fonts/ComicRelief-Regular.woff2);
-  font-weight: 400;
+  font-family: "mvboli";
+  src: url(../fonts/mvboli.ttf);
+  font-weight: 100;
   font-style: normal;
 }
 
@@ -14,7 +14,18 @@
 **************************/
 
 html {
-  color-scheme: light dark;
+  color-scheme: dark light;
+  @media (prefers-color-scheme: dark) {
+    --zwart: black;
+    --grijs: gray;
+    --wit: white;
+  }
+  @media (prefers-color-scheme: light) {
+    --zwart: #1d2336;
+    --grijs: white;
+    --wit: white;
+  }
+  /* kleur varianten aanduiden voor zowel light als dark mode */
 }
 
 /**************************
@@ -32,7 +43,33 @@ img {
 }
 
 body {
-  font-family: "Comic Relief", system-ui;
+  background-image: radial-gradient(
+    farthest-corner at 50% 100%,
+    /* Licht vestigd aandacht op de doos met albums */ var(--grijs),
+    var(--grijs),
+    var(--zwart),
+    var(--zwart) /* dubbel zorgt dat de overgang korter is */
+  );
+  background-repeat: no-repeat;
+  @media (width > 30em) {
+    /* de gradient moet bij een andere indeling ook op een andere plek zitten */
+    background-image: radial-gradient(
+      farthest-corner at 100% 50%,
+      var(--grijs),
+      var(--zwart),
+      var(--zwart)
+    );
+    background-repeat: no-repeat;
+  }
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* voorkomen dat elementen de boven- of onderkant van het scherm raken */
+  min-height: 100vh; /* zorgen dat het hele scherm gevuld is (dat deed t eerst niet)*/
+  display: grid;
+  @media (width > 30em) {
+    grid-template-columns: 8fr 10fr;
+  }
+  /* zorgt dat de website uit 2 kolommen bestaat wanneer die groter is dan 30em  */
 }
 
 /**************************
@@ -40,6 +77,29 @@ body {
 **************************/
 
 header {
+  display: grid;
+  place-items: center; /* tekst in t midden plaatsen */
+
+  h1 {
+    text-align: center; /* tekst gecentreerd uitlijnen */
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* zorgen dat tekst goed de ruimte krijgt */
+    font-family: "mvboli", system-ui;
+    font-weight: 100;
+    font-size: 1em;
+    line-height: 100%;
+    text-shadow:
+      1px 1px 2px var(--grijs),
+      0 0 1em var(--wit),
+      0 0 0.2em var(--wit);
+    /* 3 kleuren om het shadow effect duidelijker te maken maar het wel leesbaar te houden */
+    @media (width > 30em) {
+      font-size: 2em; /* groter lettertype wanneer de website naar 2 kolommen gaat en er meer ruimte is */
+    }
+  }
 }
 
 /**************************
@@ -54,6 +114,143 @@ footer {
 **************************/
 
 main {
+  display: grid;
+  place-items: center;
+  /* Alles in het midden zetten */
+  margin-top: 3em; /* anders staan de albums over de tekst */
+
+  nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* Dit zorgt dat alle albums onderaan mn article tag staan. Dat kan ik dan ook met de la afbeeldingen doen en dan dingen gaan verschuiven*/
+  }
+
+  ol {
+    position: relative; /* zodat ik alles vrij kan bewegen */
+    transform: scale(
+      0.7
+    ); /* zorgt dat de albums niet te groot zijn voor de website */
+    transform-origin: bottom; /* zorgt dat de albums op de onderkant blijven staan bij de verkleining */
+    padding: 0;
+    margin: 0;
+    /*  Blijkbaar hebben de puntjes hun eigen padding en margin */
+    list-style-type: none; /* puntjes weghalen */
+  }
+
+  ol li {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* zorgt dat alles op de bodem blijft staan net als bover */
+  }
+
+  ol li:nth-child(16) {
+    transform: translateY(0);
+  }
+
+  ol li:nth-child(15) {
+    transform: translateY(-5%);
+  }
+
+  ol li:nth-child(14) {
+    transform: translateY(-10%);
+  }
+
+  ol li:nth-child(13) {
+    transform: translateY(-15%);
+  }
+
+  ol li:nth-child(12) {
+    transform: translateY(-20%);
+  }
+
+  ol li:nth-child(11) {
+    transform: translateY(-25%);
+  }
+
+  ol li:nth-child(10) {
+    transform: translateY(-30%);
+  }
+
+  ol li:nth-child(9) {
+    transform: translateY(-35%);
+  }
+
+  ol li:nth-child(8) {
+    transform: translateY(-40%);
+  }
+
+  ol li:nth-child(7) {
+    transform: translateY(-45%);
+  }
+
+  ol li:nth-child(6) {
+    transform: translateY(-50%);
+  }
+
+  ol li:nth-child(5) {
+    transform: translateY(-55%);
+  }
+
+  ol li:nth-child(4) {
+    transform: translateY(-60%);
+  }
+
+  ol li:nth-child(3) {
+    transform: translateY(-65%);
+  }
+
+  ol li:nth-child(2) {
+    transform: translateY(-70%);
+  }
+
+  ol li:first-child {
+    transform: translateY(-75%);
+  }
+  /* beginnen met voorste album en dan vanaf daar steeds meer omhoog met dezelfde stappen */
+  /* telkens -...% ipv -...px zodat het goed scaled */
+  #achterkant {
+    display: block;
+    width: 100%;
+    transform: scale(0.8);
+    transform-origin: bottom;
+    /* La achterkant kleiner maken, maar iets minder dan de albums, want anders vallen de albums over de zij- en achterkant  */
+  }
+
+  #voorkant {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* voorkant van de la naar onderkant van article plaatsen net als de achterkant en de albums */
+    pointer-events: none;
+    transform: scale(0.8);
+    transform-origin: bottom;
+    /* La voorkant kleiner maken, maar iets minder dan de albums, want dan is ie net zo groot als de achterkant */
+  }
+  button {
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    /* Knoppen onzichtbaar maken zodat alleen het album zichtbaar is en een pointer als cursor */
+  }
+
+  article {
+    position: relative;
+    /* zodat ik alles zelf kan verplaatsen naar waar ik wil */
+    @media (width < 30em) {
+      min-width: 50vh;
+      max-width: 60vh;
+    }
+    /* zorgen m'n bak met albums niet te groot of te klein wordt wanneer m'n scherm smal is */
+    @media (width > 30em) {
+      max-width: 70vh;
+    }
+    /* zorgen dat m'n bak niet te groot wordt en buiten het scherm gaat vallen */
+  }
 }
 
 /**************************

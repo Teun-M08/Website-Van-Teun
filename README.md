@@ -1,3 +1,11 @@
+## 23-11-2026
+
+Checkout:
+
+- Wanneer wordt een website lelijk? Wanneer er heel veel witruimte ontstaat en regels heel lang worden bij het scalen van de website. Ook als elementen zoals afbeeldingen onproportioneel groot of klein worden.
+- Met het gebruik van grids
+-
+
 20-11-2026
 Feedback en Grid
 --
